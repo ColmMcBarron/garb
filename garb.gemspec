@@ -2,9 +2,9 @@
 require File.expand_path('../lib/garb/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ['Tony Pitale', 'Sijawusz Pur Rahnama']
+  gem.authors       = ['Tony Pitale', 'Sijawusz Pur Rahnama', 'Steve Wilkin', 'Colm McBarron']
   gem.email         = ['tony.pitale@viget.com', 'sija@sija.pl']
-  gem.homepage      = 'http://github.com/Sija/garb'
+  gem.homepage      = 'http://github.com/ColmMcBarron/garb'
   
   gem.summary       = 'Google Analytics API Ruby Wrapper'
   gem.description   = ''
