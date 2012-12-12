@@ -79,6 +79,7 @@ module Garb
           http.read_timeout = Garb.read_timeout
 
           unless @session.access_token.nil?
+            puts relative_uri
             http.get(relative_uri, {'Authorization' => "Bearer #{@session.access_token.token}"})
           else
             http.get(relative_uri, {
